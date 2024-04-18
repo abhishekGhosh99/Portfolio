@@ -34,6 +34,9 @@
   background: linear-gradient(to right, #141e30, #243b55);
   box-shadow: 5px 15px 10px 0 rgba(0, 0, 0, 0.1);
 }
+.sidebar {
+  background: linear-gradient(to right, #141e30, #243b55);
+}
 .nav li:hover {
   text-shadow: 0px -5px 6px rgb(0, 0, 0);
 }
