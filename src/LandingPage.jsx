@@ -7,13 +7,9 @@ import { TypeAnimation } from "react-type-animation";
 const LandingPage = () => {
   return (
     <div id="home">
-      <div className="landing-page w-full h-[100vh] px-[12vw] md:px-[10vw] lg:px-[13vw] py-[15vh] md:py-[28vh] flex flex-col-reverse md:flex-row justify-between gap-0 md:gap-[50px] lg:gap-10">
-        <div className="left w-full lg:w-1/2 flex lg:block flex-col justify-center items-center gap-2 lg:gap-0">
-          {/* <h1 className="w-full text-[5vw] font-bold leading-[6vw]">
-            Front-End <span className="text-[6vw] font-bold">Developer</span>
-          </h1> */}
-
-          <h1 className="w-full text-[10vw] sm:text-[7.6vw] lg:text-[5vw] font-bold leading-[11vw] lg:leading-[6vw]">
+      <div className="landing-page w-full h-[100vh] px-[9vw] md:px-[10vw] lg:px-[13vw] py-[13vh] md:py-[28vh] flex flex-col-reverse md:flex-row justify-between gap-0 md:gap-[50px] lg:gap-10">
+        <div className="left w-full lg:w-1/2 flex lg:block flex-col justify-center items-center gap-4 lg:gap-0">
+          <h1 className="w-full text-[10vw] sm:text-[7.6vw] lg:text-[5vw] font-bold leading-[11vw] lg:leading-[6vw] text-center lg:text-start">
             <TypeAnimation
               sequence={["Front-End Developer", 1000]}
               wrapper="span"
@@ -22,12 +18,11 @@ const LandingPage = () => {
               repeat={Infinity}
             />
           </h1>
-
-          <p className="lg:leading-[2.5vw] py-6 font-normal text-[18px] sm:text-[20px] lg:text-lg">
+          <p className="lg:leading-[2.5vw] py-6 font-normal text-[18px] sm:text-[20px] lg:text-lg text-center lg:text-start">
             Hi, I'm Abhishek Ghosh. A passionate Front-end Developer based in
             Delhi, India. 📍
           </p>
-          <div className="icons flex flex-row justify-start items-center w-full px-3 gap-5 ">
+          <div className="icons flex flex-row justify-center lg:justify-start items-center w-full px-3 gap-10 lg:gap-5 ">
             <a
               href="https://www.linkedin.com/in/abhishek-ghosh-188125226/"
               target="_blank"

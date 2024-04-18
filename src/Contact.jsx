@@ -47,21 +47,21 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="copyright py-[20vw] lg:pt-[8vw] flex justify-between w-full items-center">
-          <div className="left w-1/2">
-            <h1 className="text-[3vw] lg:text-[1.4vw] font-bold">
-              Copyright © 2024. All rights are reserved
+        <div className="copyright py-[20vw] lg:py-0 lg:pt-[8vw] flex flex-col-reverse lg:flex-row justify-between w-full items-center gap-10 lg:gap-0">
+          <div className="left w-full lg:w-1/2">
+            <h1 className="text-[3vw] lg:text-[1.4vw] font-bold text-center lg:text-start">
+              Copyright © 2024. All rights are reserved.
             </h1>
           </div>
-          <div className="right w-1/2 flex flex-row justify-end items-center gap-5 ">
+          <div className="right w-1/2 flex flex-row justify-center lg:justify-end items-center gap-10 lg:gap-5">
             <a
               href="https://www.linkedin.com/in/abhishek-ghosh-188125226/"
               target="_blank"
             >
-              <LiaLinkedin className="text-[5vw] lg:text-[3vw] hover:text-blue-400" />
+              <LiaLinkedin className="text-[8vw] lg:text-[3vw] hover:text-blue-400" />
             </a>
             <a href="https://github.com/abhishekGhosh99" target="_blank">
-              <FiGithub className="text-[5vw] lg:text-[2.5vw] hover:text-blue-400" />
+              <FiGithub className="text-[6vw] lg:text-[2.5vw] hover:text-blue-400" />
             </a>
           </div>
         </div>
