@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: Gilroy;
+}
+::selection {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+/* Width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.nav {
+  background: linear-gradient(to right, #141e30, #243b55);
+  box-shadow: 5px 15px 10px 0 rgba(0, 0, 0, 0.1);
+}
+.nav li:hover {
+  text-shadow: 0px -5px 6px rgb(0, 0, 0);
+}
+.landing-page {
+  background: linear-gradient(to right, #141e30, #243b55);
+}
+.techstack {
+  background: linear-gradient(to right, #000000, #1f334a);
+}
+.lamp-light {
+  box-shadow: 100px 20px 110px 60px rgba(180, 207, 108, 0.2);
+}
+.about {
+  background: linear-gradient(to right, #141e30, #243b55);
+}
+.portfolio {
+  background: linear-gradient(to right, #141e30, #243b55);
+}
+.project-1 img {
+  box-shadow: 0px 0px 30px 20px rgba(47, 114, 186, 0.2);
+}
+.project-2 img {
+  box-shadow: 0px 0px 30px 20px rgba(47, 114, 186, 0.2);
+}
+.project-3 img {
+  box-shadow: 0px 0px 30px 20px rgba(47, 114, 186, 0.2);
+}
+.project-4 img {
+  box-shadow: 0px 0px 30px 20px rgba(47, 114, 186, 0.2);
+}
+.contact {
+  /* background: linear-gradient(to bottom, #141e30, #000000); */
+  background: rgb(0, 0, 0);
+}
+.icon {
+  box-shadow: 0px 0px 10px 10px rgba(47, 114, 186, 0.2);
+}
+.btn-shadow:hover {
+  box-shadow: 0px 0px 10px 10px rgba(47, 114, 186, 0.2);
+  transition: ease-in-out all 0.3s;
+}
+.landingPage-img {
+  box-shadow: 0px 0px 20px 30px rgba(69, 118, 171, 0.2);
+  background-color: #0000000f;
+}
+.glowie-div {
+  box-shadow: 0 0 10px #bfdbfe, 0 0 10px #bfdbfe, 0 0 10px #bfdbfe,
+    0 0 10px #bfdbfe, 0 0 10px #bfdbfe, 0 0 10px #bfdbfe, 0 0 10px #bfdbfe,
+    0 0 10px #bfdbfe; /* Glow effect */
+}
