@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-  font-family: Gilroy;
+  font-family: "Gilroy";
 }
 ::selection {
   background-color: rgba(0, 0, 0, 0.7);
