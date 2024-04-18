@@ -43,7 +43,7 @@ const Portfolio = () => {
                 target="_blank"
                 className="btn-shadow hover:text-blue-400"
               >
-                <span className="flex flex-row md:text-[20px] justify-center items-center gap-2 p-3">
+                <span className="flex flex-row justify-center items-center gap-2 p-3">
                   Code <FaGithub />
                 </span>
               </a>
@@ -52,7 +52,7 @@ const Portfolio = () => {
                 target="_blank"
                 className="btn-shadow hover:text-blue-400"
               >
-                <span className="flex flex-row md:text-[20px] justify-center items-center gap-2 p-3">
+                <span className="flex flex-row justify-center items-center gap-2 p-3">
                   Live Demo <HiMiniArrowTopRightOnSquare />
                 </span>
               </a>
