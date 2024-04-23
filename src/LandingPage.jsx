@@ -24,7 +24,7 @@ const LandingPage = () => {
           </p>
           <div className="icons flex flex-row justify-center lg:justify-start items-center w-full px-3 gap-10 lg:gap-5 ">
             <a
-              href="https://www.linkedin.com/in/abhishek-ghosh-188125226/"
+              href="https://www.linkedin.com/in/abhishekGhoshh/"
               target="_blank"
             >
               <LiaLinkedin className="text-[8vw] md:text-[5vw] lg:text-[3vw] hover:text-blue-400" />
