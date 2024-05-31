@@ -73,7 +73,7 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="project-2 w-full px-0 lg:px-10 py-6 mb-[10vw] flex flex-col lg:flex-row gap-10">
+        <div className="project-2 w-full px-0 lg:px-10 py-6 mb-[10vw] flex flex-col-reverse lg:flex-row gap-10">
           <div className="left w-full lg:w-1/2 px-0 lg:px-[5vw] py-6">
             <h1 className="text-[20px] md:text-[30px] lg:text-[21px] font-semibold lg:text-center pb-4">
               Infinity Virtual Gym
@@ -212,7 +212,7 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="project-5 w-full px-0 lg:px-10 py-6 mb-[10vw] flex flex-col-reverse lg:flex-row gap-10">
+        <div className="project-5 w-full px-0 lg:px-10 py-6 mb-[10vw] flex flex-col lg:flex-row gap-10">
           <div className="left w-full lg:w-1/2 rounded-[20px] flex justify-center items-center">
             <img
               src={visionPro}
