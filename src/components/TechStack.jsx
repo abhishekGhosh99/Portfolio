@@ -9,13 +9,14 @@ import {
   lamp,
   reduxIcon,
   materialUIIcon,
+  sassIcon,
 } from "../assets";
 
 const TechStack = () => {
   return (
     <div>
       <div className="techstack relative w-full bg-zinc-200 text-zinc-100 flex flex-col lg:flex-row justify-center items-center gap-9 px-[10vw] py-10 overflow-hidden">
-        <div className="lamp hidden md:flex absolute left-4 sm:left-[22vw] md:left-[28vw] lg:left-[10%] top-7 lg:bottom-[0%] lg:flex flex-row">
+        <div className="lamp hidden md:flex absolute left-4 sm:left-[22vw] md:left-[28vw] lg:left-[5%] top-7 lg:bottom-[0%] lg:flex flex-row">
           <img src={lamp} className="w-[80px] lg:w-[100px] opacity-70" alt="" />
           <div className="lamp-light absolute w-[20px] lg:w-[40px] lg:h-[40px] rounded-full top-[3px] right-[10px]"></div>
         </div>
@@ -38,12 +39,17 @@ const TechStack = () => {
             className="w-[50px] rounded-xl  hover:scale-110 hover:-translate-y-2 hover:ease-in-out hover:duration-200"
           />
           <img
+            src={bootstrapIcon}
+            alt=""
+            className="w-[50px] rounded-xl  hover:scale-110 hover:-translate-y-2 hover:ease-in-out hover:duration-200"
+          />
+          <img
             src={reactIcon}
             alt=""
             className="w-[50px] rounded-xl  hover:scale-110 hover:-translate-y-2 hover:ease-in-out hover:duration-200"
           />
           <img
-            src={bootstrapIcon}
+            src={sassIcon}
             alt=""
             className="w-[50px] rounded-xl hover:scale-110 hover:-translate-y-2 hover:ease-in-out hover:duration-200"
           />

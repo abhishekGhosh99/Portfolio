@@ -17,6 +17,8 @@ import aboutSubImage from "./about_sub_image.png";
 import gymExercise from "./gymExercise.png";
 import reduxIcon from "./redux_icon.png";
 import materialUIIcon from "./materialUI_icon.png";
+import sassIcon from "./sass_icon.png";
+import movix from "./movix.png";
 
 export {
   htmlIcon,
@@ -38,4 +40,6 @@ export {
   gymExercise,
   reduxIcon,
   materialUIIcon,
+  sassIcon,
+  movix,
 };

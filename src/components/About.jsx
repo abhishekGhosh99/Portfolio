@@ -45,10 +45,10 @@ const About = () => {
           <p className="text-[18px] lg:text-[15px] text-zinc-300">
             I am a highly motivated web developer with a solid foundation in
             frontend technologies such as HTML, CSS, JavaScript, and React.js.
-            My expertise includes modern frontend frameworks like React.js,
-            Redux Toolkit, and Material UI. Additionally, I have hands-on
-            experience with REST APIs and collaborative version control using
-            GitHub.
+            My expertise includes modern frontend frameworks / libraries like
+            React.js, Redux Toolkit, and Material UI. Additionally, I have
+            hands-on experience with REST APIs and collaborative version control
+            using Git and GitHub.
           </p>
         </div>
       </div>
