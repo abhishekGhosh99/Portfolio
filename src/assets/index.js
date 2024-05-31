@@ -14,6 +14,9 @@ import gerichtRestaurant from "./gericht_restaurant.png";
 import shopper from "./E-commerce.png";
 import landingPageAvatar from "./landingPage_avatar.jpg";
 import aboutSubImage from "./about_sub_image.png";
+import gymExercise from "./gymExercise.png";
+import reduxIcon from "./redux_icon.png";
+import materialUIIcon from "./materialUI_icon.png";
 
 export {
   htmlIcon,
@@ -32,4 +35,7 @@ export {
   shopper,
   landingPageAvatar,
   aboutSubImage,
+  gymExercise,
+  reduxIcon,
+  materialUIIcon,
 };
