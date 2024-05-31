@@ -1,10 +1,12 @@
 import React from "react";
-import Navbar from "./Navbar";
-import LandingPage from "./LandingPage";
-import About from "./About";
-import Portfolio from "./Portfolio";
-import Contact from "./Contact";
-import TechStack from "./TechStack";
+import {
+  Navbar,
+  LandingPage,
+  About,
+  Portfolio,
+  Contact,
+  TechStack,
+} from "./index";
 import LocomotiveScroll from "locomotive-scroll";
 
 const App = () => {

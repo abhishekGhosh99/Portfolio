@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { aboutImage, aboutSubImage } from "./assets";
+import { aboutImage, aboutSubImage } from "../assets";
 
 const About = () => {
   const [rotate, setRotate] = useState(0);
@@ -38,14 +38,16 @@ const About = () => {
             Front-end Developer based in Delhi, India 📍
           </h1>
           <p className="text-[18px] lg:text-[15px] text-zinc-300">
-            Hey, my name is Abhishek, and I'm a Frontend Developer. My passion
-            is to create and develop a clean UI/UX for my users.
+            Hey, my name is Abhishek, and I am a Frontend Developer with a
+            passion for creating and developing clean, user-friendly UI/UX
+            designs.
           </p>
           <p className="text-[18px] lg:text-[15px] text-zinc-300">
-            I am a highly motivated web developer with a strong foundation in
-            frontend technologies such as HTML, CSS, JavaScript and React.js. My
-            proficiency extends to modern frontend frameworks like React.js, and
-            I have hands-on experience in collaborative version control using
+            I am a highly motivated web developer with a solid foundation in
+            frontend technologies such as HTML, CSS, JavaScript, and React.js.
+            My expertise includes modern frontend frameworks like React.js,
+            Redux Toolkit, and Material UI. Additionally, I have hands-on
+            experience with REST APIs and collaborative version control using
             GitHub.
           </p>
         </div>

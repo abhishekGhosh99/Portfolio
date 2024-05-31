@@ -1,7 +1,7 @@
 import React from "react";
 import { LiaLinkedin } from "react-icons/lia";
 import { FiGithub } from "react-icons/fi";
-import { landingPageAvatar } from "./assets";
+import { landingPageAvatar } from "../assets";
 import { TypeAnimation } from "react-type-animation";
 
 const LandingPage = () => {

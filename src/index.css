@@ -82,8 +82,10 @@
   box-shadow: 0px 0px 20px 30px rgba(69, 118, 171, 0.2);
   background-color: #0000000f;
 }
+
+/* Glow effect */
 .glowie-div {
   box-shadow: 0 0 10px #bfdbfe, 0 0 10px #bfdbfe, 0 0 10px #bfdbfe,
     0 0 10px #bfdbfe, 0 0 10px #bfdbfe, 0 0 10px #bfdbfe, 0 0 10px #bfdbfe,
-    0 0 10px #bfdbfe; /* Glow effect */
+    0 0 10px #bfdbfe;
 }
